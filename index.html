@@ -1227,13 +1227,6 @@
             });
         });
         
-        // Simple form submission prevention for demo
-        document.querySelector('.contact-form').addEventListener('submit', function(e) {
-            e.preventDefault();
-            alert('Thanks for your message! In a real implementation, this would connect to a backend service.');
-            this.reset();
-        });
-        
         // Add subtle animation to project cards
         document.addEventListener('DOMContentLoaded', function() {
             const projectCards = document.querySelectorAll('.project-card');
@@ -1253,6 +1246,7 @@
 </body>
 
 </html>
+
 
 
 
